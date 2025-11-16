@@ -1,0 +1,53 @@
+A comprehensive Exploratory Data Analysis (EDA) project that involves web scraping second-hand bike data and analyzing pricing patterns, brand preferences, and factors influencing used bike prices.
+
+## 📊 Project Overview
+
+This project combines web scraping and data analysis to investigate the second-hand bike market. The analysis provides insights into pricing trends, popular brands, and key factors that affect used bike prices, helping both buyers and sellers make informed decisions.
+
+## 🎯 Objectives
+
+- **Web Scraping**: Extract second-hand bike data from online platforms
+- **Data Cleaning**: Process and prepare scraped data for analysis
+- **Price Analysis**: Understand factors affecting second-hand bike prices
+- **Brand Analysis**: Identify popular brands and their price ranges
+- **Visualization**: Create insightful visualizations to communicate findings
+- **Market Insights**: Provide actionable insights for buyers and sellers
+
+## 🛠️ Technologies Used
+
+### Programming & Analysis
+- **Python 3.8+**
+- **Web Scraping**: BeautifulSoup4, Requests, Selenium
+- **Data Analysis**: Pandas, NumPy
+- **Data Visualization**: Matplotlib, Seaborn, Plotly
+- **Statistical Analysis**: SciPy
+- **Notebook**: Jupyter
+
+### Data Sources
+- Second-hand bike listing platforms
+- Online marketplaces for used bicycles
+
+## 📁 Project Structure
+EDA-Webscraping-project-on-Secon-hand-bike-purchase-analysis/
+│
+├── data/
+│ ├── raw_bike_data.csv # Raw scraped data
+│ ├── cleaned_bike_data.csv # Processed data
+│ └── analysis_results/ # Analysis outputs
+│
+├── notebooks/
+│ ├── 1_Web_Scraping_Second_Hand_Bikes.ipynb
+│ ├── 2_Data_Cleaning_Preprocessing.ipynb
+│ └── 3_EDA_Bike_Analysis.ipynb
+│
+├── src/
+│ ├── scraper.py # Web scraping functions
+│ ├── data_cleaning.py # Data processing functions
+│ └── visualization.py # Plotting functions
+│
+├── reports/
+│ ├── images/ # Generated visualizations
+│ └── insights.md # Key findings
+│
+├── requirements.txt
+└── README.md
